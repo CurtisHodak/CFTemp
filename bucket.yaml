@@ -8,18 +8,3 @@ Outputs:
   BucketName:
     Description: The name of the created S3 bucket
     Value: curtistest120585-1
-
-  Resources:
-    MyBucket:
-      Type: AWS::S3::Bucket
-      Properties:
-        BucketName: curtistest120585-2
-
-  Parameters:
-    BucketName:
-      Type: String
-
-  Outputs:
-    BucketName:
-      Description: The name of the created S3 bucket
-      Value: curtistest120585-2
