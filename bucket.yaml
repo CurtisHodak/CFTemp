@@ -328,4 +328,4 @@ Outputs:
 
   Bucket30Name:
     Description: The name of the thirtieth S3 bucket
-    Value:
+    Value: !GetAtt BucketStack30.Outputs.BucketName
