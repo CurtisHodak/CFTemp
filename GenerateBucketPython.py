@@ -3,7 +3,7 @@ import yaml
 # Configuration
 child_template_file = "child-bucket.yaml"
 output_file = "parent-template.yaml"
-num_buckets = 100
+num_buckets = 200
 
 # Root structure
 template = {
