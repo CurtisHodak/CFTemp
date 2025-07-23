@@ -1,10 +1,111 @@
 Resources:
-  MyBucket:
-    Type: AWS::S3::Bucket
+  BucketStack1:
+    Type: AWS::CloudFormation::Stack
     Properties:
-      BucketName: curtistest120585-1
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-1
+
+  BucketStack2:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-2
+
+  BucketStack3:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-3
+
+  BucketStack4:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-4
+
+  BucketStack5:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-5
+
+  BucketStack6:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-6
+
+  BucketStack7:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-7
+
+  BucketStack8:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-8
+
+  BucketStack9:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-9
+
+  BucketStack10:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-10
 
 Outputs:
-  BucketName:
-    Description: The name of the created S3 bucket
-    Value: curtistest120585-1
+  Bucket1Name:
+    Description: The name of the first S3 bucket
+    Value: !GetAtt BucketStack1.Outputs.BucketName
+
+  Bucket2Name:
+    Description: The name of the second S3 bucket
+    Value: !GetAtt BucketStack2.Outputs.BucketName
+
+  Bucket3Name:
+    Description: The name of the third S3 bucket
+    Value: !GetAtt BucketStack3.Outputs.BucketName
+
+  Bucket4Name:
+    Description: The name of the fourth S3 bucket
+    Value: !GetAtt BucketStack4.Outputs.BucketName
+
+  Bucket5Name:
+    Description: The name of the fifth S3 bucket
+    Value: !GetAtt BucketStack5.Outputs.BucketName
+
+  Bucket6Name:
+    Description: The name of the sixth S3 bucket
+    Value: !GetAtt BucketStack6.Outputs.BucketName
+
+  Bucket7Name:
+    Description: The name of the seventh S3 bucket
+    Value: !GetAtt BucketStack7.Outputs.BucketName
+
+  Bucket8Name:
+    Description: The name of the eighth S3 bucket
+    Value: !GetAtt BucketStack8.Outputs.BucketName
+
+  Bucket9Name:
+    Description: The name of the ninth S3 bucket
+    Value: !GetAtt BucketStack9.Outputs.BucketName
+
+  Bucket10Name:
+    Description: The name of the tenth S3 bucket
+    Value: !GetAtt BucketStack10.Outputs.BucketName
