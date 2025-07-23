@@ -4,17 +4,6 @@ Resources:
     Properties:
       BucketName: curtistest120585-1
 
-  MyBucketPolicy:
-    Type: AWS::S3::BucketPolicy
-    Properties:
-      Bucket: curtistest120585-1
-      PolicyDocument:
-        Statement:
-          - Effect: Allow
-            Principal: "*"
-            Action: "s3:GetObject"
-            Resource: "arn:aws:s3:::curtistest120585-1/*"
-
 Outputs:
   BucketName:
     Description: The name of the created S3 bucket
