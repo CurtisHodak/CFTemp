@@ -2,70 +2,70 @@ Resources:
   BucketStack1:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-1
 
   BucketStack2:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-2
 
   BucketStack3:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-3
 
   BucketStack4:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-4
 
   BucketStack5:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-5
 
   BucketStack6:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-6
 
   BucketStack7:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-7
 
   BucketStack8:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-8
 
   BucketStack9:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-9
 
   BucketStack10:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://s3.amazonaws.com/YOUR_BUCKET/child-bucket.yaml
+      TemplateURL: child-bucket.yaml
       Parameters:
         BucketName: curtistest120585-10
 
