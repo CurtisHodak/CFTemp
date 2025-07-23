@@ -69,6 +69,146 @@ Resources:
       Parameters:
         BucketName: curtistest120585-10
 
+  BucketStack11:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-11
+
+  BucketStack12:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-12
+
+  BucketStack13:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-13
+
+  BucketStack14:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-14
+
+  BucketStack15:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-15
+
+  BucketStack16:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-16
+
+  BucketStack17:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-17
+
+  BucketStack18:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-18
+
+  BucketStack19:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-19
+
+  BucketStack20:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-20
+
+  BucketStack21:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-21
+
+  BucketStack22:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-22
+
+  BucketStack23:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-23
+
+  BucketStack24:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-24
+
+  BucketStack25:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-25
+
+  BucketStack26:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-26
+
+  BucketStack27:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-27
+
+  BucketStack28:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-28
+
+  BucketStack29:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-29
+
+  BucketStack30:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: child-bucket.yaml
+      Parameters:
+        BucketName: curtistest120585-30
+
 Outputs:
   Bucket1Name:
     Description: The name of the first S3 bucket
@@ -109,3 +249,83 @@ Outputs:
   Bucket10Name:
     Description: The name of the tenth S3 bucket
     Value: !GetAtt BucketStack10.Outputs.BucketName
+
+  Bucket11Name:
+    Description: The name of the eleventh S3 bucket
+    Value: !GetAtt BucketStack11.Outputs.BucketName
+
+  Bucket12Name:
+    Description: The name of the twelfth S3 bucket
+    Value: !GetAtt BucketStack12.Outputs.BucketName
+
+  Bucket13Name:
+    Description: The name of the thirteenth S3 bucket
+    Value: !GetAtt BucketStack13.Outputs.BucketName
+
+  Bucket14Name:
+    Description: The name of the fourteenth S3 bucket
+    Value: !GetAtt BucketStack14.Outputs.BucketName
+
+  Bucket15Name:
+    Description: The name of the fifteenth S3 bucket
+    Value: !GetAtt BucketStack15.Outputs.BucketName
+
+  Bucket16Name:
+    Description: The name of the sixteenth S3 bucket
+    Value: !GetAtt BucketStack16.Outputs.BucketName
+
+  Bucket17Name:
+    Description: The name of the seventeenth S3 bucket
+    Value: !GetAtt BucketStack17.Outputs.BucketName
+
+  Bucket18Name:
+    Description: The name of the eighteenth S3 bucket
+    Value: !GetAtt BucketStack18.Outputs.BucketName
+
+  Bucket19Name:
+    Description: The name of the nineteenth S3 bucket
+    Value: !GetAtt BucketStack19.Outputs.BucketName
+
+  Bucket20Name:
+    Description: The name of the twentieth S3 bucket
+    Value: !GetAtt BucketStack20.Outputs.BucketName
+
+  Bucket21Name:
+    Description: The name of the twenty-first S3 bucket
+    Value: !GetAtt BucketStack21.Outputs.BucketName
+
+  Bucket22Name:
+    Description: The name of the twenty-second S3 bucket
+    Value: !GetAtt BucketStack22.Outputs.BucketName
+
+  Bucket23Name:
+    Description: The name of the twenty-third S3 bucket
+    Value: !GetAtt BucketStack23.Outputs.BucketName
+
+  Bucket24Name:
+    Description: The name of the twenty-fourth S3 bucket
+    Value: !GetAtt BucketStack24.Outputs.BucketName
+
+  Bucket25Name:
+    Description: The name of the twenty-fifth S3 bucket
+    Value: !GetAtt BucketStack25.Outputs.BucketName
+
+  Bucket26Name:
+    Description: The name of the twenty-sixth S3 bucket
+    Value: !GetAtt BucketStack26.Outputs.BucketName
+
+  Bucket27Name:
+    Description: The name of the twenty-seventh S3 bucket
+    Value: !GetAtt BucketStack27.Outputs.BucketName
+
+  Bucket28Name:
+    Description: The name of the twenty-eighth S3 bucket
+    Value: !GetAtt BucketStack28.Outputs.BucketName
+
+  Bucket29Name:
+    Description: The name of the twenty-ninth S3 bucket
+    Value: !GetAtt BucketStack29.Outputs.BucketName
+
+  Bucket30Name:
+    Description: The name of the thirtieth S3 bucket
+    Value:
