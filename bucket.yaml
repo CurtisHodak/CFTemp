@@ -1,2404 +1,2404 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Description: Parent CloudFormation template to create 200 S3 buckets via nested stacks
-Resources:
-  BucketStack1:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-1
-  BucketStack2:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-2
-  BucketStack3:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-3
-  BucketStack4:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-4
-  BucketStack5:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-5
-  BucketStack6:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-6
-  BucketStack7:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-7
-  BucketStack8:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-8
-  BucketStack9:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-9
-  BucketStack10:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-10
-  BucketStack11:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-11
-  BucketStack12:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-12
-  BucketStack13:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-13
-  BucketStack14:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-14
-  BucketStack15:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-15
-  BucketStack16:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-16
-  BucketStack17:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-17
-  BucketStack18:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-18
-  BucketStack19:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-19
-  BucketStack20:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-20
-  BucketStack21:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-21
-  BucketStack22:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-22
-  BucketStack23:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-23
-  BucketStack24:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-24
-  BucketStack25:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-25
-  BucketStack26:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-26
-  BucketStack27:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-27
-  BucketStack28:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-28
-  BucketStack29:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-29
-  BucketStack30:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-30
-  BucketStack31:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-31
-  BucketStack32:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-32
-  BucketStack33:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-33
-  BucketStack34:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-34
-  BucketStack35:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-35
-  BucketStack36:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-36
-  BucketStack37:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-37
-  BucketStack38:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-38
-  BucketStack39:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-39
-  BucketStack40:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-40
-  BucketStack41:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-41
-  BucketStack42:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-42
-  BucketStack43:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-43
-  BucketStack44:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-44
-  BucketStack45:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-45
-  BucketStack46:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-46
-  BucketStack47:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-47
-  BucketStack48:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-48
-  BucketStack49:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-49
-  BucketStack50:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-50
-  BucketStack51:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-51
-  BucketStack52:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-52
-  BucketStack53:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-53
-  BucketStack54:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-54
-  BucketStack55:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-55
-  BucketStack56:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-56
-  BucketStack57:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-57
-  BucketStack58:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-58
-  BucketStack59:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-59
-  BucketStack60:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-60
-  BucketStack61:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-61
-  BucketStack62:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-62
-  BucketStack63:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-63
-  BucketStack64:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-64
-  BucketStack65:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-65
-  BucketStack66:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-66
-  BucketStack67:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-67
-  BucketStack68:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-68
-  BucketStack69:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-69
-  BucketStack70:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-70
-  BucketStack71:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-71
-  BucketStack72:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-72
-  BucketStack73:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-73
-  BucketStack74:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-74
-  BucketStack75:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-75
-  BucketStack76:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-76
-  BucketStack77:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-77
-  BucketStack78:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-78
-  BucketStack79:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-79
-  BucketStack80:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-80
-  BucketStack81:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-81
-  BucketStack82:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-82
-  BucketStack83:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-83
-  BucketStack84:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-84
-  BucketStack85:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-85
-  BucketStack86:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-86
-  BucketStack87:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-87
-  BucketStack88:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-88
-  BucketStack89:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-89
-  BucketStack90:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-90
-  BucketStack91:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-91
-  BucketStack92:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-92
-  BucketStack93:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-93
-  BucketStack94:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-94
-  BucketStack95:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-95
-  BucketStack96:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-96
-  BucketStack97:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-97
-  BucketStack98:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-98
-  BucketStack99:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-99
-  BucketStack100:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-100
-  BucketStack101:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-101
-  BucketStack102:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-102
-  BucketStack103:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-103
-  BucketStack104:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-104
-  BucketStack105:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-105
-  BucketStack106:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-106
-  BucketStack107:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-107
-  BucketStack108:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-108
-  BucketStack109:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-109
-  BucketStack110:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-110
-  BucketStack111:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-111
-  BucketStack112:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-112
-  BucketStack113:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-113
-  BucketStack114:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-114
-  BucketStack115:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-115
-  BucketStack116:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-116
-  BucketStack117:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-117
-  BucketStack118:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-118
-  BucketStack119:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-119
-  BucketStack120:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-120
-  BucketStack121:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-121
-  BucketStack122:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-122
-  BucketStack123:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-123
-  BucketStack124:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-124
-  BucketStack125:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-125
-  BucketStack126:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-126
-  BucketStack127:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-127
-  BucketStack128:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-128
-  BucketStack129:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-129
-  BucketStack130:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-130
-  BucketStack131:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-131
-  BucketStack132:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-132
-  BucketStack133:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-133
-  BucketStack134:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-134
-  BucketStack135:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-135
-  BucketStack136:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-136
-  BucketStack137:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-137
-  BucketStack138:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-138
-  BucketStack139:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-139
-  BucketStack140:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-140
-  BucketStack141:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-141
-  BucketStack142:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-142
-  BucketStack143:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-143
-  BucketStack144:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-144
-  BucketStack145:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-145
-  BucketStack146:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-146
-  BucketStack147:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-147
-  BucketStack148:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-148
-  BucketStack149:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-149
-  BucketStack150:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-150
-  BucketStack151:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-151
-  BucketStack152:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-152
-  BucketStack153:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-153
-  BucketStack154:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-154
-  BucketStack155:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-155
-  BucketStack156:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-156
-  BucketStack157:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-157
-  BucketStack158:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-158
-  BucketStack159:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-159
-  BucketStack160:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-160
-  BucketStack161:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-161
-  BucketStack162:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-162
-  BucketStack163:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-163
-  BucketStack164:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-164
-  BucketStack165:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-165
-  BucketStack166:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-166
-  BucketStack167:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-167
-  BucketStack168:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-168
-  BucketStack169:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-169
-  BucketStack170:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-170
-  BucketStack171:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-171
-  BucketStack172:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-172
-  BucketStack173:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-173
-  BucketStack174:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-174
-  BucketStack175:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-175
-  BucketStack176:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-176
-  BucketStack177:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-177
-  BucketStack178:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-178
-  BucketStack179:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-179
-  BucketStack180:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-180
-  BucketStack181:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-181
-  BucketStack182:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-182
-  BucketStack183:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-183
-  BucketStack184:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-184
-  BucketStack185:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-185
-  BucketStack186:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-186
-  BucketStack187:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-187
-  BucketStack188:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-188
-  BucketStack189:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-189
-  BucketStack190:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-190
-  BucketStack191:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-191
-  BucketStack192:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-192
-  BucketStack193:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-193
-  BucketStack194:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-194
-  BucketStack195:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-195
-  BucketStack196:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-196
-  BucketStack197:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-197
-  BucketStack198:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-198
-  BucketStack199:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-199
-  BucketStack200:
-    Type: AWS::CloudFormation::Stack
-    Properties:
-      TemplateURL: child-bucket.yaml
-      Parameters:
-        BucketName: curtistest120585-200
-Outputs:
-  Bucket1Name:
-    Description: 'The name of the S3 bucket #1'
-    Value:
-      Fn::GetAtt:
-      - BucketStack1
-      - Outputs.BucketName
-  Bucket2Name:
-    Description: 'The name of the S3 bucket #2'
-    Value:
-      Fn::GetAtt:
-      - BucketStack2
-      - Outputs.BucketName
-  Bucket3Name:
-    Description: 'The name of the S3 bucket #3'
-    Value:
-      Fn::GetAtt:
-      - BucketStack3
-      - Outputs.BucketName
-  Bucket4Name:
-    Description: 'The name of the S3 bucket #4'
-    Value:
-      Fn::GetAtt:
-      - BucketStack4
-      - Outputs.BucketName
-  Bucket5Name:
-    Description: 'The name of the S3 bucket #5'
-    Value:
-      Fn::GetAtt:
-      - BucketStack5
-      - Outputs.BucketName
-  Bucket6Name:
-    Description: 'The name of the S3 bucket #6'
-    Value:
-      Fn::GetAtt:
-      - BucketStack6
-      - Outputs.BucketName
-  Bucket7Name:
-    Description: 'The name of the S3 bucket #7'
-    Value:
-      Fn::GetAtt:
-      - BucketStack7
-      - Outputs.BucketName
-  Bucket8Name:
-    Description: 'The name of the S3 bucket #8'
-    Value:
-      Fn::GetAtt:
-      - BucketStack8
-      - Outputs.BucketName
-  Bucket9Name:
-    Description: 'The name of the S3 bucket #9'
-    Value:
-      Fn::GetAtt:
-      - BucketStack9
-      - Outputs.BucketName
-  Bucket10Name:
-    Description: 'The name of the S3 bucket #10'
-    Value:
-      Fn::GetAtt:
-      - BucketStack10
-      - Outputs.BucketName
-  Bucket11Name:
-    Description: 'The name of the S3 bucket #11'
-    Value:
-      Fn::GetAtt:
-      - BucketStack11
-      - Outputs.BucketName
-  Bucket12Name:
-    Description: 'The name of the S3 bucket #12'
-    Value:
-      Fn::GetAtt:
-      - BucketStack12
-      - Outputs.BucketName
-  Bucket13Name:
-    Description: 'The name of the S3 bucket #13'
-    Value:
-      Fn::GetAtt:
-      - BucketStack13
-      - Outputs.BucketName
-  Bucket14Name:
-    Description: 'The name of the S3 bucket #14'
-    Value:
-      Fn::GetAtt:
-      - BucketStack14
-      - Outputs.BucketName
-  Bucket15Name:
-    Description: 'The name of the S3 bucket #15'
-    Value:
-      Fn::GetAtt:
-      - BucketStack15
-      - Outputs.BucketName
-  Bucket16Name:
-    Description: 'The name of the S3 bucket #16'
-    Value:
-      Fn::GetAtt:
-      - BucketStack16
-      - Outputs.BucketName
-  Bucket17Name:
-    Description: 'The name of the S3 bucket #17'
-    Value:
-      Fn::GetAtt:
-      - BucketStack17
-      - Outputs.BucketName
-  Bucket18Name:
-    Description: 'The name of the S3 bucket #18'
-    Value:
-      Fn::GetAtt:
-      - BucketStack18
-      - Outputs.BucketName
-  Bucket19Name:
-    Description: 'The name of the S3 bucket #19'
-    Value:
-      Fn::GetAtt:
-      - BucketStack19
-      - Outputs.BucketName
-  Bucket20Name:
-    Description: 'The name of the S3 bucket #20'
-    Value:
-      Fn::GetAtt:
-      - BucketStack20
-      - Outputs.BucketName
-  Bucket21Name:
-    Description: 'The name of the S3 bucket #21'
-    Value:
-      Fn::GetAtt:
-      - BucketStack21
-      - Outputs.BucketName
-  Bucket22Name:
-    Description: 'The name of the S3 bucket #22'
-    Value:
-      Fn::GetAtt:
-      - BucketStack22
-      - Outputs.BucketName
-  Bucket23Name:
-    Description: 'The name of the S3 bucket #23'
-    Value:
-      Fn::GetAtt:
-      - BucketStack23
-      - Outputs.BucketName
-  Bucket24Name:
-    Description: 'The name of the S3 bucket #24'
-    Value:
-      Fn::GetAtt:
-      - BucketStack24
-      - Outputs.BucketName
-  Bucket25Name:
-    Description: 'The name of the S3 bucket #25'
-    Value:
-      Fn::GetAtt:
-      - BucketStack25
-      - Outputs.BucketName
-  Bucket26Name:
-    Description: 'The name of the S3 bucket #26'
-    Value:
-      Fn::GetAtt:
-      - BucketStack26
-      - Outputs.BucketName
-  Bucket27Name:
-    Description: 'The name of the S3 bucket #27'
-    Value:
-      Fn::GetAtt:
-      - BucketStack27
-      - Outputs.BucketName
-  Bucket28Name:
-    Description: 'The name of the S3 bucket #28'
-    Value:
-      Fn::GetAtt:
-      - BucketStack28
-      - Outputs.BucketName
-  Bucket29Name:
-    Description: 'The name of the S3 bucket #29'
-    Value:
-      Fn::GetAtt:
-      - BucketStack29
-      - Outputs.BucketName
-  Bucket30Name:
-    Description: 'The name of the S3 bucket #30'
-    Value:
-      Fn::GetAtt:
-      - BucketStack30
-      - Outputs.BucketName
-  Bucket31Name:
-    Description: 'The name of the S3 bucket #31'
-    Value:
-      Fn::GetAtt:
-      - BucketStack31
-      - Outputs.BucketName
-  Bucket32Name:
-    Description: 'The name of the S3 bucket #32'
-    Value:
-      Fn::GetAtt:
-      - BucketStack32
-      - Outputs.BucketName
-  Bucket33Name:
-    Description: 'The name of the S3 bucket #33'
-    Value:
-      Fn::GetAtt:
-      - BucketStack33
-      - Outputs.BucketName
-  Bucket34Name:
-    Description: 'The name of the S3 bucket #34'
-    Value:
-      Fn::GetAtt:
-      - BucketStack34
-      - Outputs.BucketName
-  Bucket35Name:
-    Description: 'The name of the S3 bucket #35'
-    Value:
-      Fn::GetAtt:
-      - BucketStack35
-      - Outputs.BucketName
-  Bucket36Name:
-    Description: 'The name of the S3 bucket #36'
-    Value:
-      Fn::GetAtt:
-      - BucketStack36
-      - Outputs.BucketName
-  Bucket37Name:
-    Description: 'The name of the S3 bucket #37'
-    Value:
-      Fn::GetAtt:
-      - BucketStack37
-      - Outputs.BucketName
-  Bucket38Name:
-    Description: 'The name of the S3 bucket #38'
-    Value:
-      Fn::GetAtt:
-      - BucketStack38
-      - Outputs.BucketName
-  Bucket39Name:
-    Description: 'The name of the S3 bucket #39'
-    Value:
-      Fn::GetAtt:
-      - BucketStack39
-      - Outputs.BucketName
-  Bucket40Name:
-    Description: 'The name of the S3 bucket #40'
-    Value:
-      Fn::GetAtt:
-      - BucketStack40
-      - Outputs.BucketName
-  Bucket41Name:
-    Description: 'The name of the S3 bucket #41'
-    Value:
-      Fn::GetAtt:
-      - BucketStack41
-      - Outputs.BucketName
-  Bucket42Name:
-    Description: 'The name of the S3 bucket #42'
-    Value:
-      Fn::GetAtt:
-      - BucketStack42
-      - Outputs.BucketName
-  Bucket43Name:
-    Description: 'The name of the S3 bucket #43'
-    Value:
-      Fn::GetAtt:
-      - BucketStack43
-      - Outputs.BucketName
-  Bucket44Name:
-    Description: 'The name of the S3 bucket #44'
-    Value:
-      Fn::GetAtt:
-      - BucketStack44
-      - Outputs.BucketName
-  Bucket45Name:
-    Description: 'The name of the S3 bucket #45'
-    Value:
-      Fn::GetAtt:
-      - BucketStack45
-      - Outputs.BucketName
-  Bucket46Name:
-    Description: 'The name of the S3 bucket #46'
-    Value:
-      Fn::GetAtt:
-      - BucketStack46
-      - Outputs.BucketName
-  Bucket47Name:
-    Description: 'The name of the S3 bucket #47'
-    Value:
-      Fn::GetAtt:
-      - BucketStack47
-      - Outputs.BucketName
-  Bucket48Name:
-    Description: 'The name of the S3 bucket #48'
-    Value:
-      Fn::GetAtt:
-      - BucketStack48
-      - Outputs.BucketName
-  Bucket49Name:
-    Description: 'The name of the S3 bucket #49'
-    Value:
-      Fn::GetAtt:
-      - BucketStack49
-      - Outputs.BucketName
-  Bucket50Name:
-    Description: 'The name of the S3 bucket #50'
-    Value:
-      Fn::GetAtt:
-      - BucketStack50
-      - Outputs.BucketName
-  Bucket51Name:
-    Description: 'The name of the S3 bucket #51'
-    Value:
-      Fn::GetAtt:
-      - BucketStack51
-      - Outputs.BucketName
-  Bucket52Name:
-    Description: 'The name of the S3 bucket #52'
-    Value:
-      Fn::GetAtt:
-      - BucketStack52
-      - Outputs.BucketName
-  Bucket53Name:
-    Description: 'The name of the S3 bucket #53'
-    Value:
-      Fn::GetAtt:
-      - BucketStack53
-      - Outputs.BucketName
-  Bucket54Name:
-    Description: 'The name of the S3 bucket #54'
-    Value:
-      Fn::GetAtt:
-      - BucketStack54
-      - Outputs.BucketName
-  Bucket55Name:
-    Description: 'The name of the S3 bucket #55'
-    Value:
-      Fn::GetAtt:
-      - BucketStack55
-      - Outputs.BucketName
-  Bucket56Name:
-    Description: 'The name of the S3 bucket #56'
-    Value:
-      Fn::GetAtt:
-      - BucketStack56
-      - Outputs.BucketName
-  Bucket57Name:
-    Description: 'The name of the S3 bucket #57'
-    Value:
-      Fn::GetAtt:
-      - BucketStack57
-      - Outputs.BucketName
-  Bucket58Name:
-    Description: 'The name of the S3 bucket #58'
-    Value:
-      Fn::GetAtt:
-      - BucketStack58
-      - Outputs.BucketName
-  Bucket59Name:
-    Description: 'The name of the S3 bucket #59'
-    Value:
-      Fn::GetAtt:
-      - BucketStack59
-      - Outputs.BucketName
-  Bucket60Name:
-    Description: 'The name of the S3 bucket #60'
-    Value:
-      Fn::GetAtt:
-      - BucketStack60
-      - Outputs.BucketName
-  Bucket61Name:
-    Description: 'The name of the S3 bucket #61'
-    Value:
-      Fn::GetAtt:
-      - BucketStack61
-      - Outputs.BucketName
-  Bucket62Name:
-    Description: 'The name of the S3 bucket #62'
-    Value:
-      Fn::GetAtt:
-      - BucketStack62
-      - Outputs.BucketName
-  Bucket63Name:
-    Description: 'The name of the S3 bucket #63'
-    Value:
-      Fn::GetAtt:
-      - BucketStack63
-      - Outputs.BucketName
-  Bucket64Name:
-    Description: 'The name of the S3 bucket #64'
-    Value:
-      Fn::GetAtt:
-      - BucketStack64
-      - Outputs.BucketName
-  Bucket65Name:
-    Description: 'The name of the S3 bucket #65'
-    Value:
-      Fn::GetAtt:
-      - BucketStack65
-      - Outputs.BucketName
-  Bucket66Name:
-    Description: 'The name of the S3 bucket #66'
-    Value:
-      Fn::GetAtt:
-      - BucketStack66
-      - Outputs.BucketName
-  Bucket67Name:
-    Description: 'The name of the S3 bucket #67'
-    Value:
-      Fn::GetAtt:
-      - BucketStack67
-      - Outputs.BucketName
-  Bucket68Name:
-    Description: 'The name of the S3 bucket #68'
-    Value:
-      Fn::GetAtt:
-      - BucketStack68
-      - Outputs.BucketName
-  Bucket69Name:
-    Description: 'The name of the S3 bucket #69'
-    Value:
-      Fn::GetAtt:
-      - BucketStack69
-      - Outputs.BucketName
-  Bucket70Name:
-    Description: 'The name of the S3 bucket #70'
-    Value:
-      Fn::GetAtt:
-      - BucketStack70
-      - Outputs.BucketName
-  Bucket71Name:
-    Description: 'The name of the S3 bucket #71'
-    Value:
-      Fn::GetAtt:
-      - BucketStack71
-      - Outputs.BucketName
-  Bucket72Name:
-    Description: 'The name of the S3 bucket #72'
-    Value:
-      Fn::GetAtt:
-      - BucketStack72
-      - Outputs.BucketName
-  Bucket73Name:
-    Description: 'The name of the S3 bucket #73'
-    Value:
-      Fn::GetAtt:
-      - BucketStack73
-      - Outputs.BucketName
-  Bucket74Name:
-    Description: 'The name of the S3 bucket #74'
-    Value:
-      Fn::GetAtt:
-      - BucketStack74
-      - Outputs.BucketName
-  Bucket75Name:
-    Description: 'The name of the S3 bucket #75'
-    Value:
-      Fn::GetAtt:
-      - BucketStack75
-      - Outputs.BucketName
-  Bucket76Name:
-    Description: 'The name of the S3 bucket #76'
-    Value:
-      Fn::GetAtt:
-      - BucketStack76
-      - Outputs.BucketName
-  Bucket77Name:
-    Description: 'The name of the S3 bucket #77'
-    Value:
-      Fn::GetAtt:
-      - BucketStack77
-      - Outputs.BucketName
-  Bucket78Name:
-    Description: 'The name of the S3 bucket #78'
-    Value:
-      Fn::GetAtt:
-      - BucketStack78
-      - Outputs.BucketName
-  Bucket79Name:
-    Description: 'The name of the S3 bucket #79'
-    Value:
-      Fn::GetAtt:
-      - BucketStack79
-      - Outputs.BucketName
-  Bucket80Name:
-    Description: 'The name of the S3 bucket #80'
-    Value:
-      Fn::GetAtt:
-      - BucketStack80
-      - Outputs.BucketName
-  Bucket81Name:
-    Description: 'The name of the S3 bucket #81'
-    Value:
-      Fn::GetAtt:
-      - BucketStack81
-      - Outputs.BucketName
-  Bucket82Name:
-    Description: 'The name of the S3 bucket #82'
-    Value:
-      Fn::GetAtt:
-      - BucketStack82
-      - Outputs.BucketName
-  Bucket83Name:
-    Description: 'The name of the S3 bucket #83'
-    Value:
-      Fn::GetAtt:
-      - BucketStack83
-      - Outputs.BucketName
-  Bucket84Name:
-    Description: 'The name of the S3 bucket #84'
-    Value:
-      Fn::GetAtt:
-      - BucketStack84
-      - Outputs.BucketName
-  Bucket85Name:
-    Description: 'The name of the S3 bucket #85'
-    Value:
-      Fn::GetAtt:
-      - BucketStack85
-      - Outputs.BucketName
-  Bucket86Name:
-    Description: 'The name of the S3 bucket #86'
-    Value:
-      Fn::GetAtt:
-      - BucketStack86
-      - Outputs.BucketName
-  Bucket87Name:
-    Description: 'The name of the S3 bucket #87'
-    Value:
-      Fn::GetAtt:
-      - BucketStack87
-      - Outputs.BucketName
-  Bucket88Name:
-    Description: 'The name of the S3 bucket #88'
-    Value:
-      Fn::GetAtt:
-      - BucketStack88
-      - Outputs.BucketName
-  Bucket89Name:
-    Description: 'The name of the S3 bucket #89'
-    Value:
-      Fn::GetAtt:
-      - BucketStack89
-      - Outputs.BucketName
-  Bucket90Name:
-    Description: 'The name of the S3 bucket #90'
-    Value:
-      Fn::GetAtt:
-      - BucketStack90
-      - Outputs.BucketName
-  Bucket91Name:
-    Description: 'The name of the S3 bucket #91'
-    Value:
-      Fn::GetAtt:
-      - BucketStack91
-      - Outputs.BucketName
-  Bucket92Name:
-    Description: 'The name of the S3 bucket #92'
-    Value:
-      Fn::GetAtt:
-      - BucketStack92
-      - Outputs.BucketName
-  Bucket93Name:
-    Description: 'The name of the S3 bucket #93'
-    Value:
-      Fn::GetAtt:
-      - BucketStack93
-      - Outputs.BucketName
-  Bucket94Name:
-    Description: 'The name of the S3 bucket #94'
-    Value:
-      Fn::GetAtt:
-      - BucketStack94
-      - Outputs.BucketName
-  Bucket95Name:
-    Description: 'The name of the S3 bucket #95'
-    Value:
-      Fn::GetAtt:
-      - BucketStack95
-      - Outputs.BucketName
-  Bucket96Name:
-    Description: 'The name of the S3 bucket #96'
-    Value:
-      Fn::GetAtt:
-      - BucketStack96
-      - Outputs.BucketName
-  Bucket97Name:
-    Description: 'The name of the S3 bucket #97'
-    Value:
-      Fn::GetAtt:
-      - BucketStack97
-      - Outputs.BucketName
-  Bucket98Name:
-    Description: 'The name of the S3 bucket #98'
-    Value:
-      Fn::GetAtt:
-      - BucketStack98
-      - Outputs.BucketName
-  Bucket99Name:
-    Description: 'The name of the S3 bucket #99'
-    Value:
-      Fn::GetAtt:
-      - BucketStack99
-      - Outputs.BucketName
-  Bucket100Name:
-    Description: 'The name of the S3 bucket #100'
-    Value:
-      Fn::GetAtt:
-      - BucketStack100
-      - Outputs.BucketName
-  Bucket101Name:
-    Description: 'The name of the S3 bucket #101'
-    Value:
-      Fn::GetAtt:
-      - BucketStack101
-      - Outputs.BucketName
-  Bucket102Name:
-    Description: 'The name of the S3 bucket #102'
-    Value:
-      Fn::GetAtt:
-      - BucketStack102
-      - Outputs.BucketName
-  Bucket103Name:
-    Description: 'The name of the S3 bucket #103'
-    Value:
-      Fn::GetAtt:
-      - BucketStack103
-      - Outputs.BucketName
-  Bucket104Name:
-    Description: 'The name of the S3 bucket #104'
-    Value:
-      Fn::GetAtt:
-      - BucketStack104
-      - Outputs.BucketName
-  Bucket105Name:
-    Description: 'The name of the S3 bucket #105'
-    Value:
-      Fn::GetAtt:
-      - BucketStack105
-      - Outputs.BucketName
-  Bucket106Name:
-    Description: 'The name of the S3 bucket #106'
-    Value:
-      Fn::GetAtt:
-      - BucketStack106
-      - Outputs.BucketName
-  Bucket107Name:
-    Description: 'The name of the S3 bucket #107'
-    Value:
-      Fn::GetAtt:
-      - BucketStack107
-      - Outputs.BucketName
-  Bucket108Name:
-    Description: 'The name of the S3 bucket #108'
-    Value:
-      Fn::GetAtt:
-      - BucketStack108
-      - Outputs.BucketName
-  Bucket109Name:
-    Description: 'The name of the S3 bucket #109'
-    Value:
-      Fn::GetAtt:
-      - BucketStack109
-      - Outputs.BucketName
-  Bucket110Name:
-    Description: 'The name of the S3 bucket #110'
-    Value:
-      Fn::GetAtt:
-      - BucketStack110
-      - Outputs.BucketName
-  Bucket111Name:
-    Description: 'The name of the S3 bucket #111'
-    Value:
-      Fn::GetAtt:
-      - BucketStack111
-      - Outputs.BucketName
-  Bucket112Name:
-    Description: 'The name of the S3 bucket #112'
-    Value:
-      Fn::GetAtt:
-      - BucketStack112
-      - Outputs.BucketName
-  Bucket113Name:
-    Description: 'The name of the S3 bucket #113'
-    Value:
-      Fn::GetAtt:
-      - BucketStack113
-      - Outputs.BucketName
-  Bucket114Name:
-    Description: 'The name of the S3 bucket #114'
-    Value:
-      Fn::GetAtt:
-      - BucketStack114
-      - Outputs.BucketName
-  Bucket115Name:
-    Description: 'The name of the S3 bucket #115'
-    Value:
-      Fn::GetAtt:
-      - BucketStack115
-      - Outputs.BucketName
-  Bucket116Name:
-    Description: 'The name of the S3 bucket #116'
-    Value:
-      Fn::GetAtt:
-      - BucketStack116
-      - Outputs.BucketName
-  Bucket117Name:
-    Description: 'The name of the S3 bucket #117'
-    Value:
-      Fn::GetAtt:
-      - BucketStack117
-      - Outputs.BucketName
-  Bucket118Name:
-    Description: 'The name of the S3 bucket #118'
-    Value:
-      Fn::GetAtt:
-      - BucketStack118
-      - Outputs.BucketName
-  Bucket119Name:
-    Description: 'The name of the S3 bucket #119'
-    Value:
-      Fn::GetAtt:
-      - BucketStack119
-      - Outputs.BucketName
-  Bucket120Name:
-    Description: 'The name of the S3 bucket #120'
-    Value:
-      Fn::GetAtt:
-      - BucketStack120
-      - Outputs.BucketName
-  Bucket121Name:
-    Description: 'The name of the S3 bucket #121'
-    Value:
-      Fn::GetAtt:
-      - BucketStack121
-      - Outputs.BucketName
-  Bucket122Name:
-    Description: 'The name of the S3 bucket #122'
-    Value:
-      Fn::GetAtt:
-      - BucketStack122
-      - Outputs.BucketName
-  Bucket123Name:
-    Description: 'The name of the S3 bucket #123'
-    Value:
-      Fn::GetAtt:
-      - BucketStack123
-      - Outputs.BucketName
-  Bucket124Name:
-    Description: 'The name of the S3 bucket #124'
-    Value:
-      Fn::GetAtt:
-      - BucketStack124
-      - Outputs.BucketName
-  Bucket125Name:
-    Description: 'The name of the S3 bucket #125'
-    Value:
-      Fn::GetAtt:
-      - BucketStack125
-      - Outputs.BucketName
-  Bucket126Name:
-    Description: 'The name of the S3 bucket #126'
-    Value:
-      Fn::GetAtt:
-      - BucketStack126
-      - Outputs.BucketName
-  Bucket127Name:
-    Description: 'The name of the S3 bucket #127'
-    Value:
-      Fn::GetAtt:
-      - BucketStack127
-      - Outputs.BucketName
-  Bucket128Name:
-    Description: 'The name of the S3 bucket #128'
-    Value:
-      Fn::GetAtt:
-      - BucketStack128
-      - Outputs.BucketName
-  Bucket129Name:
-    Description: 'The name of the S3 bucket #129'
-    Value:
-      Fn::GetAtt:
-      - BucketStack129
-      - Outputs.BucketName
-  Bucket130Name:
-    Description: 'The name of the S3 bucket #130'
-    Value:
-      Fn::GetAtt:
-      - BucketStack130
-      - Outputs.BucketName
-  Bucket131Name:
-    Description: 'The name of the S3 bucket #131'
-    Value:
-      Fn::GetAtt:
-      - BucketStack131
-      - Outputs.BucketName
-  Bucket132Name:
-    Description: 'The name of the S3 bucket #132'
-    Value:
-      Fn::GetAtt:
-      - BucketStack132
-      - Outputs.BucketName
-  Bucket133Name:
-    Description: 'The name of the S3 bucket #133'
-    Value:
-      Fn::GetAtt:
-      - BucketStack133
-      - Outputs.BucketName
-  Bucket134Name:
-    Description: 'The name of the S3 bucket #134'
-    Value:
-      Fn::GetAtt:
-      - BucketStack134
-      - Outputs.BucketName
-  Bucket135Name:
-    Description: 'The name of the S3 bucket #135'
-    Value:
-      Fn::GetAtt:
-      - BucketStack135
-      - Outputs.BucketName
-  Bucket136Name:
-    Description: 'The name of the S3 bucket #136'
-    Value:
-      Fn::GetAtt:
-      - BucketStack136
-      - Outputs.BucketName
-  Bucket137Name:
-    Description: 'The name of the S3 bucket #137'
-    Value:
-      Fn::GetAtt:
-      - BucketStack137
-      - Outputs.BucketName
-  Bucket138Name:
-    Description: 'The name of the S3 bucket #138'
-    Value:
-      Fn::GetAtt:
-      - BucketStack138
-      - Outputs.BucketName
-  Bucket139Name:
-    Description: 'The name of the S3 bucket #139'
-    Value:
-      Fn::GetAtt:
-      - BucketStack139
-      - Outputs.BucketName
-  Bucket140Name:
-    Description: 'The name of the S3 bucket #140'
-    Value:
-      Fn::GetAtt:
-      - BucketStack140
-      - Outputs.BucketName
-  Bucket141Name:
-    Description: 'The name of the S3 bucket #141'
-    Value:
-      Fn::GetAtt:
-      - BucketStack141
-      - Outputs.BucketName
-  Bucket142Name:
-    Description: 'The name of the S3 bucket #142'
-    Value:
-      Fn::GetAtt:
-      - BucketStack142
-      - Outputs.BucketName
-  Bucket143Name:
-    Description: 'The name of the S3 bucket #143'
-    Value:
-      Fn::GetAtt:
-      - BucketStack143
-      - Outputs.BucketName
-  Bucket144Name:
-    Description: 'The name of the S3 bucket #144'
-    Value:
-      Fn::GetAtt:
-      - BucketStack144
-      - Outputs.BucketName
-  Bucket145Name:
-    Description: 'The name of the S3 bucket #145'
-    Value:
-      Fn::GetAtt:
-      - BucketStack145
-      - Outputs.BucketName
-  Bucket146Name:
-    Description: 'The name of the S3 bucket #146'
-    Value:
-      Fn::GetAtt:
-      - BucketStack146
-      - Outputs.BucketName
-  Bucket147Name:
-    Description: 'The name of the S3 bucket #147'
-    Value:
-      Fn::GetAtt:
-      - BucketStack147
-      - Outputs.BucketName
-  Bucket148Name:
-    Description: 'The name of the S3 bucket #148'
-    Value:
-      Fn::GetAtt:
-      - BucketStack148
-      - Outputs.BucketName
-  Bucket149Name:
-    Description: 'The name of the S3 bucket #149'
-    Value:
-      Fn::GetAtt:
-      - BucketStack149
-      - Outputs.BucketName
-  Bucket150Name:
-    Description: 'The name of the S3 bucket #150'
-    Value:
-      Fn::GetAtt:
-      - BucketStack150
-      - Outputs.BucketName
-  Bucket151Name:
-    Description: 'The name of the S3 bucket #151'
-    Value:
-      Fn::GetAtt:
-      - BucketStack151
-      - Outputs.BucketName
-  Bucket152Name:
-    Description: 'The name of the S3 bucket #152'
-    Value:
-      Fn::GetAtt:
-      - BucketStack152
-      - Outputs.BucketName
-  Bucket153Name:
-    Description: 'The name of the S3 bucket #153'
-    Value:
-      Fn::GetAtt:
-      - BucketStack153
-      - Outputs.BucketName
-  Bucket154Name:
-    Description: 'The name of the S3 bucket #154'
-    Value:
-      Fn::GetAtt:
-      - BucketStack154
-      - Outputs.BucketName
-  Bucket155Name:
-    Description: 'The name of the S3 bucket #155'
-    Value:
-      Fn::GetAtt:
-      - BucketStack155
-      - Outputs.BucketName
-  Bucket156Name:
-    Description: 'The name of the S3 bucket #156'
-    Value:
-      Fn::GetAtt:
-      - BucketStack156
-      - Outputs.BucketName
-  Bucket157Name:
-    Description: 'The name of the S3 bucket #157'
-    Value:
-      Fn::GetAtt:
-      - BucketStack157
-      - Outputs.BucketName
-  Bucket158Name:
-    Description: 'The name of the S3 bucket #158'
-    Value:
-      Fn::GetAtt:
-      - BucketStack158
-      - Outputs.BucketName
-  Bucket159Name:
-    Description: 'The name of the S3 bucket #159'
-    Value:
-      Fn::GetAtt:
-      - BucketStack159
-      - Outputs.BucketName
-  Bucket160Name:
-    Description: 'The name of the S3 bucket #160'
-    Value:
-      Fn::GetAtt:
-      - BucketStack160
-      - Outputs.BucketName
-  Bucket161Name:
-    Description: 'The name of the S3 bucket #161'
-    Value:
-      Fn::GetAtt:
-      - BucketStack161
-      - Outputs.BucketName
-  Bucket162Name:
-    Description: 'The name of the S3 bucket #162'
-    Value:
-      Fn::GetAtt:
-      - BucketStack162
-      - Outputs.BucketName
-  Bucket163Name:
-    Description: 'The name of the S3 bucket #163'
-    Value:
-      Fn::GetAtt:
-      - BucketStack163
-      - Outputs.BucketName
-  Bucket164Name:
-    Description: 'The name of the S3 bucket #164'
-    Value:
-      Fn::GetAtt:
-      - BucketStack164
-      - Outputs.BucketName
-  Bucket165Name:
-    Description: 'The name of the S3 bucket #165'
-    Value:
-      Fn::GetAtt:
-      - BucketStack165
-      - Outputs.BucketName
-  Bucket166Name:
-    Description: 'The name of the S3 bucket #166'
-    Value:
-      Fn::GetAtt:
-      - BucketStack166
-      - Outputs.BucketName
-  Bucket167Name:
-    Description: 'The name of the S3 bucket #167'
-    Value:
-      Fn::GetAtt:
-      - BucketStack167
-      - Outputs.BucketName
-  Bucket168Name:
-    Description: 'The name of the S3 bucket #168'
-    Value:
-      Fn::GetAtt:
-      - BucketStack168
-      - Outputs.BucketName
-  Bucket169Name:
-    Description: 'The name of the S3 bucket #169'
-    Value:
-      Fn::GetAtt:
-      - BucketStack169
-      - Outputs.BucketName
-  Bucket170Name:
-    Description: 'The name of the S3 bucket #170'
-    Value:
-      Fn::GetAtt:
-      - BucketStack170
-      - Outputs.BucketName
-  Bucket171Name:
-    Description: 'The name of the S3 bucket #171'
-    Value:
-      Fn::GetAtt:
-      - BucketStack171
-      - Outputs.BucketName
-  Bucket172Name:
-    Description: 'The name of the S3 bucket #172'
-    Value:
-      Fn::GetAtt:
-      - BucketStack172
-      - Outputs.BucketName
-  Bucket173Name:
-    Description: 'The name of the S3 bucket #173'
-    Value:
-      Fn::GetAtt:
-      - BucketStack173
-      - Outputs.BucketName
-  Bucket174Name:
-    Description: 'The name of the S3 bucket #174'
-    Value:
-      Fn::GetAtt:
-      - BucketStack174
-      - Outputs.BucketName
-  Bucket175Name:
-    Description: 'The name of the S3 bucket #175'
-    Value:
-      Fn::GetAtt:
-      - BucketStack175
-      - Outputs.BucketName
-  Bucket176Name:
-    Description: 'The name of the S3 bucket #176'
-    Value:
-      Fn::GetAtt:
-      - BucketStack176
-      - Outputs.BucketName
-  Bucket177Name:
-    Description: 'The name of the S3 bucket #177'
-    Value:
-      Fn::GetAtt:
-      - BucketStack177
-      - Outputs.BucketName
-  Bucket178Name:
-    Description: 'The name of the S3 bucket #178'
-    Value:
-      Fn::GetAtt:
-      - BucketStack178
-      - Outputs.BucketName
-  Bucket179Name:
-    Description: 'The name of the S3 bucket #179'
-    Value:
-      Fn::GetAtt:
-      - BucketStack179
-      - Outputs.BucketName
-  Bucket180Name:
-    Description: 'The name of the S3 bucket #180'
-    Value:
-      Fn::GetAtt:
-      - BucketStack180
-      - Outputs.BucketName
-  Bucket181Name:
-    Description: 'The name of the S3 bucket #181'
-    Value:
-      Fn::GetAtt:
-      - BucketStack181
-      - Outputs.BucketName
-  Bucket182Name:
-    Description: 'The name of the S3 bucket #182'
-    Value:
-      Fn::GetAtt:
-      - BucketStack182
-      - Outputs.BucketName
-  Bucket183Name:
-    Description: 'The name of the S3 bucket #183'
-    Value:
-      Fn::GetAtt:
-      - BucketStack183
-      - Outputs.BucketName
-  Bucket184Name:
-    Description: 'The name of the S3 bucket #184'
-    Value:
-      Fn::GetAtt:
-      - BucketStack184
-      - Outputs.BucketName
-  Bucket185Name:
-    Description: 'The name of the S3 bucket #185'
-    Value:
-      Fn::GetAtt:
-      - BucketStack185
-      - Outputs.BucketName
-  Bucket186Name:
-    Description: 'The name of the S3 bucket #186'
-    Value:
-      Fn::GetAtt:
-      - BucketStack186
-      - Outputs.BucketName
-  Bucket187Name:
-    Description: 'The name of the S3 bucket #187'
-    Value:
-      Fn::GetAtt:
-      - BucketStack187
-      - Outputs.BucketName
-  Bucket188Name:
-    Description: 'The name of the S3 bucket #188'
-    Value:
-      Fn::GetAtt:
-      - BucketStack188
-      - Outputs.BucketName
-  Bucket189Name:
-    Description: 'The name of the S3 bucket #189'
-    Value:
-      Fn::GetAtt:
-      - BucketStack189
-      - Outputs.BucketName
-  Bucket190Name:
-    Description: 'The name of the S3 bucket #190'
-    Value:
-      Fn::GetAtt:
-      - BucketStack190
-      - Outputs.BucketName
-  Bucket191Name:
-    Description: 'The name of the S3 bucket #191'
-    Value:
-      Fn::GetAtt:
-      - BucketStack191
-      - Outputs.BucketName
-  Bucket192Name:
-    Description: 'The name of the S3 bucket #192'
-    Value:
-      Fn::GetAtt:
-      - BucketStack192
-      - Outputs.BucketName
-  Bucket193Name:
-    Description: 'The name of the S3 bucket #193'
-    Value:
-      Fn::GetAtt:
-      - BucketStack193
-      - Outputs.BucketName
-  Bucket194Name:
-    Description: 'The name of the S3 bucket #194'
-    Value:
-      Fn::GetAtt:
-      - BucketStack194
-      - Outputs.BucketName
-  Bucket195Name:
-    Description: 'The name of the S3 bucket #195'
-    Value:
-      Fn::GetAtt:
-      - BucketStack195
-      - Outputs.BucketName
-  Bucket196Name:
-    Description: 'The name of the S3 bucket #196'
-    Value:
-      Fn::GetAtt:
-      - BucketStack196
-      - Outputs.BucketName
-  Bucket197Name:
-    Description: 'The name of the S3 bucket #197'
-    Value:
-      Fn::GetAtt:
-      - BucketStack197
-      - Outputs.BucketName
-  Bucket198Name:
-    Description: 'The name of the S3 bucket #198'
-    Value:
-      Fn::GetAtt:
-      - BucketStack198
-      - Outputs.BucketName
-  Bucket199Name:
-    Description: 'The name of the S3 bucket #199'
-    Value:
-      Fn::GetAtt:
-      - BucketStack199
-      - Outputs.BucketName
-  Bucket200Name:
-    Description: 'The name of the S3 bucket #200'
-    Value:
-      Fn::GetAtt:
-      - BucketStack200
-      - Outputs.BucketName
+# AWSTemplateFormatVersion: '2010-09-09'
+# Description: Parent CloudFormation template to create 200 S3 buckets via nested stacks
+# Resources:
+#   BucketStack1:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-1
+#   BucketStack2:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-2
+#   BucketStack3:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-3
+#   BucketStack4:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-4
+#   BucketStack5:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-5
+#   BucketStack6:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-6
+#   BucketStack7:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-7
+#   BucketStack8:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-8
+#   BucketStack9:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-9
+#   BucketStack10:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-10
+#   BucketStack11:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-11
+#   BucketStack12:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-12
+#   BucketStack13:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-13
+#   BucketStack14:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-14
+#   BucketStack15:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-15
+#   BucketStack16:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-16
+#   BucketStack17:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-17
+#   BucketStack18:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-18
+#   BucketStack19:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-19
+#   BucketStack20:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-20
+#   BucketStack21:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-21
+#   BucketStack22:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-22
+#   BucketStack23:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-23
+#   BucketStack24:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-24
+#   BucketStack25:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-25
+#   BucketStack26:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-26
+#   BucketStack27:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-27
+#   BucketStack28:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-28
+#   BucketStack29:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-29
+#   BucketStack30:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-30
+#   BucketStack31:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-31
+#   BucketStack32:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-32
+#   BucketStack33:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-33
+#   BucketStack34:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-34
+#   BucketStack35:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-35
+#   BucketStack36:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-36
+#   BucketStack37:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-37
+#   BucketStack38:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-38
+#   BucketStack39:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-39
+#   BucketStack40:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-40
+#   BucketStack41:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-41
+#   BucketStack42:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-42
+#   BucketStack43:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-43
+#   BucketStack44:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-44
+#   BucketStack45:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-45
+#   BucketStack46:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-46
+#   BucketStack47:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-47
+#   BucketStack48:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-48
+#   BucketStack49:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-49
+#   BucketStack50:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-50
+#   BucketStack51:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-51
+#   BucketStack52:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-52
+#   BucketStack53:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-53
+#   BucketStack54:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-54
+#   BucketStack55:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-55
+#   BucketStack56:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-56
+#   BucketStack57:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-57
+#   BucketStack58:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-58
+#   BucketStack59:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-59
+#   BucketStack60:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-60
+#   BucketStack61:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-61
+#   BucketStack62:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-62
+#   BucketStack63:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-63
+#   BucketStack64:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-64
+#   BucketStack65:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-65
+#   BucketStack66:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-66
+#   BucketStack67:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-67
+#   BucketStack68:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-68
+#   BucketStack69:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-69
+#   BucketStack70:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-70
+#   BucketStack71:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-71
+#   BucketStack72:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-72
+#   BucketStack73:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-73
+#   BucketStack74:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-74
+#   BucketStack75:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-75
+#   BucketStack76:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-76
+#   BucketStack77:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-77
+#   BucketStack78:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-78
+#   BucketStack79:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-79
+#   BucketStack80:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-80
+#   BucketStack81:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-81
+#   BucketStack82:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-82
+#   BucketStack83:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-83
+#   BucketStack84:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-84
+#   BucketStack85:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-85
+#   BucketStack86:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-86
+#   BucketStack87:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-87
+#   BucketStack88:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-88
+#   BucketStack89:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-89
+#   BucketStack90:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-90
+#   BucketStack91:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-91
+#   BucketStack92:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-92
+#   BucketStack93:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-93
+#   BucketStack94:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-94
+#   BucketStack95:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-95
+#   BucketStack96:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-96
+#   BucketStack97:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-97
+#   BucketStack98:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-98
+#   BucketStack99:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-99
+#   BucketStack100:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-100
+#   BucketStack101:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-101
+#   BucketStack102:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-102
+#   BucketStack103:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-103
+#   BucketStack104:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-104
+#   BucketStack105:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-105
+#   BucketStack106:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-106
+#   BucketStack107:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-107
+#   BucketStack108:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-108
+#   BucketStack109:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-109
+#   BucketStack110:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-110
+#   BucketStack111:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-111
+#   BucketStack112:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-112
+#   BucketStack113:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-113
+#   BucketStack114:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-114
+#   BucketStack115:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-115
+#   BucketStack116:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-116
+#   BucketStack117:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-117
+#   BucketStack118:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-118
+#   BucketStack119:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-119
+#   BucketStack120:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-120
+#   BucketStack121:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-121
+#   BucketStack122:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-122
+#   BucketStack123:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-123
+#   BucketStack124:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-124
+#   BucketStack125:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-125
+#   BucketStack126:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-126
+#   BucketStack127:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-127
+#   BucketStack128:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-128
+#   BucketStack129:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-129
+#   BucketStack130:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-130
+#   BucketStack131:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-131
+#   BucketStack132:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-132
+#   BucketStack133:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-133
+#   BucketStack134:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-134
+#   BucketStack135:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-135
+#   BucketStack136:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-136
+#   BucketStack137:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-137
+#   BucketStack138:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-138
+#   BucketStack139:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-139
+#   BucketStack140:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-140
+#   BucketStack141:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-141
+#   BucketStack142:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-142
+#   BucketStack143:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-143
+#   BucketStack144:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-144
+#   BucketStack145:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-145
+#   BucketStack146:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-146
+#   BucketStack147:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-147
+#   BucketStack148:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-148
+#   BucketStack149:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-149
+#   BucketStack150:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-150
+#   BucketStack151:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-151
+#   BucketStack152:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-152
+#   BucketStack153:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-153
+#   BucketStack154:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-154
+#   BucketStack155:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-155
+#   BucketStack156:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-156
+#   BucketStack157:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-157
+#   BucketStack158:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-158
+#   BucketStack159:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-159
+#   BucketStack160:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-160
+#   BucketStack161:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-161
+#   BucketStack162:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-162
+#   BucketStack163:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-163
+#   BucketStack164:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-164
+#   BucketStack165:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-165
+#   BucketStack166:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-166
+#   BucketStack167:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-167
+#   BucketStack168:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-168
+#   BucketStack169:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-169
+#   BucketStack170:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-170
+#   BucketStack171:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-171
+#   BucketStack172:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-172
+#   BucketStack173:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-173
+#   BucketStack174:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-174
+#   BucketStack175:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-175
+#   BucketStack176:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-176
+#   BucketStack177:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-177
+#   BucketStack178:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-178
+#   BucketStack179:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-179
+#   BucketStack180:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-180
+#   BucketStack181:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-181
+#   BucketStack182:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-182
+#   BucketStack183:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-183
+#   BucketStack184:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-184
+#   BucketStack185:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-185
+#   BucketStack186:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-186
+#   BucketStack187:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-187
+#   BucketStack188:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-188
+#   BucketStack189:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-189
+#   BucketStack190:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-190
+#   BucketStack191:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-191
+#   BucketStack192:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-192
+#   BucketStack193:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-193
+#   BucketStack194:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-194
+#   BucketStack195:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-195
+#   BucketStack196:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-196
+#   BucketStack197:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-197
+#   BucketStack198:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-198
+#   BucketStack199:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-199
+#   BucketStack200:
+#     Type: AWS::CloudFormation::Stack
+#     Properties:
+#       TemplateURL: child-bucket.yaml
+#       Parameters:
+#         BucketName: curtistest120585-200
+# Outputs:
+#   Bucket1Name:
+#     Description: 'The name of the S3 bucket #1'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack1
+#       - Outputs.BucketName
+#   Bucket2Name:
+#     Description: 'The name of the S3 bucket #2'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack2
+#       - Outputs.BucketName
+#   Bucket3Name:
+#     Description: 'The name of the S3 bucket #3'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack3
+#       - Outputs.BucketName
+#   Bucket4Name:
+#     Description: 'The name of the S3 bucket #4'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack4
+#       - Outputs.BucketName
+#   Bucket5Name:
+#     Description: 'The name of the S3 bucket #5'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack5
+#       - Outputs.BucketName
+#   Bucket6Name:
+#     Description: 'The name of the S3 bucket #6'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack6
+#       - Outputs.BucketName
+#   Bucket7Name:
+#     Description: 'The name of the S3 bucket #7'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack7
+#       - Outputs.BucketName
+#   Bucket8Name:
+#     Description: 'The name of the S3 bucket #8'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack8
+#       - Outputs.BucketName
+#   Bucket9Name:
+#     Description: 'The name of the S3 bucket #9'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack9
+#       - Outputs.BucketName
+#   Bucket10Name:
+#     Description: 'The name of the S3 bucket #10'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack10
+#       - Outputs.BucketName
+#   Bucket11Name:
+#     Description: 'The name of the S3 bucket #11'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack11
+#       - Outputs.BucketName
+#   Bucket12Name:
+#     Description: 'The name of the S3 bucket #12'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack12
+#       - Outputs.BucketName
+#   Bucket13Name:
+#     Description: 'The name of the S3 bucket #13'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack13
+#       - Outputs.BucketName
+#   Bucket14Name:
+#     Description: 'The name of the S3 bucket #14'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack14
+#       - Outputs.BucketName
+#   Bucket15Name:
+#     Description: 'The name of the S3 bucket #15'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack15
+#       - Outputs.BucketName
+#   Bucket16Name:
+#     Description: 'The name of the S3 bucket #16'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack16
+#       - Outputs.BucketName
+#   Bucket17Name:
+#     Description: 'The name of the S3 bucket #17'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack17
+#       - Outputs.BucketName
+#   Bucket18Name:
+#     Description: 'The name of the S3 bucket #18'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack18
+#       - Outputs.BucketName
+#   Bucket19Name:
+#     Description: 'The name of the S3 bucket #19'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack19
+#       - Outputs.BucketName
+#   Bucket20Name:
+#     Description: 'The name of the S3 bucket #20'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack20
+#       - Outputs.BucketName
+#   Bucket21Name:
+#     Description: 'The name of the S3 bucket #21'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack21
+#       - Outputs.BucketName
+#   Bucket22Name:
+#     Description: 'The name of the S3 bucket #22'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack22
+#       - Outputs.BucketName
+#   Bucket23Name:
+#     Description: 'The name of the S3 bucket #23'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack23
+#       - Outputs.BucketName
+#   Bucket24Name:
+#     Description: 'The name of the S3 bucket #24'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack24
+#       - Outputs.BucketName
+#   Bucket25Name:
+#     Description: 'The name of the S3 bucket #25'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack25
+#       - Outputs.BucketName
+#   Bucket26Name:
+#     Description: 'The name of the S3 bucket #26'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack26
+#       - Outputs.BucketName
+#   Bucket27Name:
+#     Description: 'The name of the S3 bucket #27'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack27
+#       - Outputs.BucketName
+#   Bucket28Name:
+#     Description: 'The name of the S3 bucket #28'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack28
+#       - Outputs.BucketName
+#   Bucket29Name:
+#     Description: 'The name of the S3 bucket #29'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack29
+#       - Outputs.BucketName
+#   Bucket30Name:
+#     Description: 'The name of the S3 bucket #30'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack30
+#       - Outputs.BucketName
+#   Bucket31Name:
+#     Description: 'The name of the S3 bucket #31'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack31
+#       - Outputs.BucketName
+#   Bucket32Name:
+#     Description: 'The name of the S3 bucket #32'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack32
+#       - Outputs.BucketName
+#   Bucket33Name:
+#     Description: 'The name of the S3 bucket #33'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack33
+#       - Outputs.BucketName
+#   Bucket34Name:
+#     Description: 'The name of the S3 bucket #34'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack34
+#       - Outputs.BucketName
+#   Bucket35Name:
+#     Description: 'The name of the S3 bucket #35'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack35
+#       - Outputs.BucketName
+#   Bucket36Name:
+#     Description: 'The name of the S3 bucket #36'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack36
+#       - Outputs.BucketName
+#   Bucket37Name:
+#     Description: 'The name of the S3 bucket #37'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack37
+#       - Outputs.BucketName
+#   Bucket38Name:
+#     Description: 'The name of the S3 bucket #38'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack38
+#       - Outputs.BucketName
+#   Bucket39Name:
+#     Description: 'The name of the S3 bucket #39'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack39
+#       - Outputs.BucketName
+#   Bucket40Name:
+#     Description: 'The name of the S3 bucket #40'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack40
+#       - Outputs.BucketName
+#   Bucket41Name:
+#     Description: 'The name of the S3 bucket #41'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack41
+#       - Outputs.BucketName
+#   Bucket42Name:
+#     Description: 'The name of the S3 bucket #42'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack42
+#       - Outputs.BucketName
+#   Bucket43Name:
+#     Description: 'The name of the S3 bucket #43'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack43
+#       - Outputs.BucketName
+#   Bucket44Name:
+#     Description: 'The name of the S3 bucket #44'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack44
+#       - Outputs.BucketName
+#   Bucket45Name:
+#     Description: 'The name of the S3 bucket #45'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack45
+#       - Outputs.BucketName
+#   Bucket46Name:
+#     Description: 'The name of the S3 bucket #46'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack46
+#       - Outputs.BucketName
+#   Bucket47Name:
+#     Description: 'The name of the S3 bucket #47'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack47
+#       - Outputs.BucketName
+#   Bucket48Name:
+#     Description: 'The name of the S3 bucket #48'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack48
+#       - Outputs.BucketName
+#   Bucket49Name:
+#     Description: 'The name of the S3 bucket #49'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack49
+#       - Outputs.BucketName
+#   Bucket50Name:
+#     Description: 'The name of the S3 bucket #50'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack50
+#       - Outputs.BucketName
+#   Bucket51Name:
+#     Description: 'The name of the S3 bucket #51'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack51
+#       - Outputs.BucketName
+#   Bucket52Name:
+#     Description: 'The name of the S3 bucket #52'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack52
+#       - Outputs.BucketName
+#   Bucket53Name:
+#     Description: 'The name of the S3 bucket #53'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack53
+#       - Outputs.BucketName
+#   Bucket54Name:
+#     Description: 'The name of the S3 bucket #54'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack54
+#       - Outputs.BucketName
+#   Bucket55Name:
+#     Description: 'The name of the S3 bucket #55'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack55
+#       - Outputs.BucketName
+#   Bucket56Name:
+#     Description: 'The name of the S3 bucket #56'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack56
+#       - Outputs.BucketName
+#   Bucket57Name:
+#     Description: 'The name of the S3 bucket #57'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack57
+#       - Outputs.BucketName
+#   Bucket58Name:
+#     Description: 'The name of the S3 bucket #58'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack58
+#       - Outputs.BucketName
+#   Bucket59Name:
+#     Description: 'The name of the S3 bucket #59'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack59
+#       - Outputs.BucketName
+#   Bucket60Name:
+#     Description: 'The name of the S3 bucket #60'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack60
+#       - Outputs.BucketName
+#   Bucket61Name:
+#     Description: 'The name of the S3 bucket #61'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack61
+#       - Outputs.BucketName
+#   Bucket62Name:
+#     Description: 'The name of the S3 bucket #62'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack62
+#       - Outputs.BucketName
+#   Bucket63Name:
+#     Description: 'The name of the S3 bucket #63'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack63
+#       - Outputs.BucketName
+#   Bucket64Name:
+#     Description: 'The name of the S3 bucket #64'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack64
+#       - Outputs.BucketName
+#   Bucket65Name:
+#     Description: 'The name of the S3 bucket #65'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack65
+#       - Outputs.BucketName
+#   Bucket66Name:
+#     Description: 'The name of the S3 bucket #66'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack66
+#       - Outputs.BucketName
+#   Bucket67Name:
+#     Description: 'The name of the S3 bucket #67'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack67
+#       - Outputs.BucketName
+#   Bucket68Name:
+#     Description: 'The name of the S3 bucket #68'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack68
+#       - Outputs.BucketName
+#   Bucket69Name:
+#     Description: 'The name of the S3 bucket #69'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack69
+#       - Outputs.BucketName
+#   Bucket70Name:
+#     Description: 'The name of the S3 bucket #70'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack70
+#       - Outputs.BucketName
+#   Bucket71Name:
+#     Description: 'The name of the S3 bucket #71'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack71
+#       - Outputs.BucketName
+#   Bucket72Name:
+#     Description: 'The name of the S3 bucket #72'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack72
+#       - Outputs.BucketName
+#   Bucket73Name:
+#     Description: 'The name of the S3 bucket #73'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack73
+#       - Outputs.BucketName
+#   Bucket74Name:
+#     Description: 'The name of the S3 bucket #74'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack74
+#       - Outputs.BucketName
+#   Bucket75Name:
+#     Description: 'The name of the S3 bucket #75'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack75
+#       - Outputs.BucketName
+#   Bucket76Name:
+#     Description: 'The name of the S3 bucket #76'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack76
+#       - Outputs.BucketName
+#   Bucket77Name:
+#     Description: 'The name of the S3 bucket #77'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack77
+#       - Outputs.BucketName
+#   Bucket78Name:
+#     Description: 'The name of the S3 bucket #78'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack78
+#       - Outputs.BucketName
+#   Bucket79Name:
+#     Description: 'The name of the S3 bucket #79'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack79
+#       - Outputs.BucketName
+#   Bucket80Name:
+#     Description: 'The name of the S3 bucket #80'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack80
+#       - Outputs.BucketName
+#   Bucket81Name:
+#     Description: 'The name of the S3 bucket #81'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack81
+#       - Outputs.BucketName
+#   Bucket82Name:
+#     Description: 'The name of the S3 bucket #82'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack82
+#       - Outputs.BucketName
+#   Bucket83Name:
+#     Description: 'The name of the S3 bucket #83'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack83
+#       - Outputs.BucketName
+#   Bucket84Name:
+#     Description: 'The name of the S3 bucket #84'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack84
+#       - Outputs.BucketName
+#   Bucket85Name:
+#     Description: 'The name of the S3 bucket #85'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack85
+#       - Outputs.BucketName
+#   Bucket86Name:
+#     Description: 'The name of the S3 bucket #86'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack86
+#       - Outputs.BucketName
+#   Bucket87Name:
+#     Description: 'The name of the S3 bucket #87'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack87
+#       - Outputs.BucketName
+#   Bucket88Name:
+#     Description: 'The name of the S3 bucket #88'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack88
+#       - Outputs.BucketName
+#   Bucket89Name:
+#     Description: 'The name of the S3 bucket #89'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack89
+#       - Outputs.BucketName
+#   Bucket90Name:
+#     Description: 'The name of the S3 bucket #90'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack90
+#       - Outputs.BucketName
+#   Bucket91Name:
+#     Description: 'The name of the S3 bucket #91'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack91
+#       - Outputs.BucketName
+#   Bucket92Name:
+#     Description: 'The name of the S3 bucket #92'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack92
+#       - Outputs.BucketName
+#   Bucket93Name:
+#     Description: 'The name of the S3 bucket #93'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack93
+#       - Outputs.BucketName
+#   Bucket94Name:
+#     Description: 'The name of the S3 bucket #94'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack94
+#       - Outputs.BucketName
+#   Bucket95Name:
+#     Description: 'The name of the S3 bucket #95'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack95
+#       - Outputs.BucketName
+#   Bucket96Name:
+#     Description: 'The name of the S3 bucket #96'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack96
+#       - Outputs.BucketName
+#   Bucket97Name:
+#     Description: 'The name of the S3 bucket #97'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack97
+#       - Outputs.BucketName
+#   Bucket98Name:
+#     Description: 'The name of the S3 bucket #98'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack98
+#       - Outputs.BucketName
+#   Bucket99Name:
+#     Description: 'The name of the S3 bucket #99'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack99
+#       - Outputs.BucketName
+#   Bucket100Name:
+#     Description: 'The name of the S3 bucket #100'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack100
+#       - Outputs.BucketName
+#   Bucket101Name:
+#     Description: 'The name of the S3 bucket #101'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack101
+#       - Outputs.BucketName
+#   Bucket102Name:
+#     Description: 'The name of the S3 bucket #102'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack102
+#       - Outputs.BucketName
+#   Bucket103Name:
+#     Description: 'The name of the S3 bucket #103'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack103
+#       - Outputs.BucketName
+#   Bucket104Name:
+#     Description: 'The name of the S3 bucket #104'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack104
+#       - Outputs.BucketName
+#   Bucket105Name:
+#     Description: 'The name of the S3 bucket #105'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack105
+#       - Outputs.BucketName
+#   Bucket106Name:
+#     Description: 'The name of the S3 bucket #106'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack106
+#       - Outputs.BucketName
+#   Bucket107Name:
+#     Description: 'The name of the S3 bucket #107'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack107
+#       - Outputs.BucketName
+#   Bucket108Name:
+#     Description: 'The name of the S3 bucket #108'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack108
+#       - Outputs.BucketName
+#   Bucket109Name:
+#     Description: 'The name of the S3 bucket #109'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack109
+#       - Outputs.BucketName
+#   Bucket110Name:
+#     Description: 'The name of the S3 bucket #110'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack110
+#       - Outputs.BucketName
+#   Bucket111Name:
+#     Description: 'The name of the S3 bucket #111'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack111
+#       - Outputs.BucketName
+#   Bucket112Name:
+#     Description: 'The name of the S3 bucket #112'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack112
+#       - Outputs.BucketName
+#   Bucket113Name:
+#     Description: 'The name of the S3 bucket #113'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack113
+#       - Outputs.BucketName
+#   Bucket114Name:
+#     Description: 'The name of the S3 bucket #114'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack114
+#       - Outputs.BucketName
+#   Bucket115Name:
+#     Description: 'The name of the S3 bucket #115'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack115
+#       - Outputs.BucketName
+#   Bucket116Name:
+#     Description: 'The name of the S3 bucket #116'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack116
+#       - Outputs.BucketName
+#   Bucket117Name:
+#     Description: 'The name of the S3 bucket #117'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack117
+#       - Outputs.BucketName
+#   Bucket118Name:
+#     Description: 'The name of the S3 bucket #118'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack118
+#       - Outputs.BucketName
+#   Bucket119Name:
+#     Description: 'The name of the S3 bucket #119'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack119
+#       - Outputs.BucketName
+#   Bucket120Name:
+#     Description: 'The name of the S3 bucket #120'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack120
+#       - Outputs.BucketName
+#   Bucket121Name:
+#     Description: 'The name of the S3 bucket #121'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack121
+#       - Outputs.BucketName
+#   Bucket122Name:
+#     Description: 'The name of the S3 bucket #122'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack122
+#       - Outputs.BucketName
+#   Bucket123Name:
+#     Description: 'The name of the S3 bucket #123'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack123
+#       - Outputs.BucketName
+#   Bucket124Name:
+#     Description: 'The name of the S3 bucket #124'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack124
+#       - Outputs.BucketName
+#   Bucket125Name:
+#     Description: 'The name of the S3 bucket #125'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack125
+#       - Outputs.BucketName
+#   Bucket126Name:
+#     Description: 'The name of the S3 bucket #126'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack126
+#       - Outputs.BucketName
+#   Bucket127Name:
+#     Description: 'The name of the S3 bucket #127'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack127
+#       - Outputs.BucketName
+#   Bucket128Name:
+#     Description: 'The name of the S3 bucket #128'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack128
+#       - Outputs.BucketName
+#   Bucket129Name:
+#     Description: 'The name of the S3 bucket #129'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack129
+#       - Outputs.BucketName
+#   Bucket130Name:
+#     Description: 'The name of the S3 bucket #130'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack130
+#       - Outputs.BucketName
+#   Bucket131Name:
+#     Description: 'The name of the S3 bucket #131'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack131
+#       - Outputs.BucketName
+#   Bucket132Name:
+#     Description: 'The name of the S3 bucket #132'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack132
+#       - Outputs.BucketName
+#   Bucket133Name:
+#     Description: 'The name of the S3 bucket #133'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack133
+#       - Outputs.BucketName
+#   Bucket134Name:
+#     Description: 'The name of the S3 bucket #134'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack134
+#       - Outputs.BucketName
+#   Bucket135Name:
+#     Description: 'The name of the S3 bucket #135'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack135
+#       - Outputs.BucketName
+#   Bucket136Name:
+#     Description: 'The name of the S3 bucket #136'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack136
+#       - Outputs.BucketName
+#   Bucket137Name:
+#     Description: 'The name of the S3 bucket #137'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack137
+#       - Outputs.BucketName
+#   Bucket138Name:
+#     Description: 'The name of the S3 bucket #138'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack138
+#       - Outputs.BucketName
+#   Bucket139Name:
+#     Description: 'The name of the S3 bucket #139'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack139
+#       - Outputs.BucketName
+#   Bucket140Name:
+#     Description: 'The name of the S3 bucket #140'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack140
+#       - Outputs.BucketName
+#   Bucket141Name:
+#     Description: 'The name of the S3 bucket #141'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack141
+#       - Outputs.BucketName
+#   Bucket142Name:
+#     Description: 'The name of the S3 bucket #142'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack142
+#       - Outputs.BucketName
+#   Bucket143Name:
+#     Description: 'The name of the S3 bucket #143'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack143
+#       - Outputs.BucketName
+#   Bucket144Name:
+#     Description: 'The name of the S3 bucket #144'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack144
+#       - Outputs.BucketName
+#   Bucket145Name:
+#     Description: 'The name of the S3 bucket #145'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack145
+#       - Outputs.BucketName
+#   Bucket146Name:
+#     Description: 'The name of the S3 bucket #146'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack146
+#       - Outputs.BucketName
+#   Bucket147Name:
+#     Description: 'The name of the S3 bucket #147'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack147
+#       - Outputs.BucketName
+#   Bucket148Name:
+#     Description: 'The name of the S3 bucket #148'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack148
+#       - Outputs.BucketName
+#   Bucket149Name:
+#     Description: 'The name of the S3 bucket #149'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack149
+#       - Outputs.BucketName
+#   Bucket150Name:
+#     Description: 'The name of the S3 bucket #150'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack150
+#       - Outputs.BucketName
+#   Bucket151Name:
+#     Description: 'The name of the S3 bucket #151'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack151
+#       - Outputs.BucketName
+#   Bucket152Name:
+#     Description: 'The name of the S3 bucket #152'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack152
+#       - Outputs.BucketName
+#   Bucket153Name:
+#     Description: 'The name of the S3 bucket #153'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack153
+#       - Outputs.BucketName
+#   Bucket154Name:
+#     Description: 'The name of the S3 bucket #154'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack154
+#       - Outputs.BucketName
+#   Bucket155Name:
+#     Description: 'The name of the S3 bucket #155'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack155
+#       - Outputs.BucketName
+#   Bucket156Name:
+#     Description: 'The name of the S3 bucket #156'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack156
+#       - Outputs.BucketName
+#   Bucket157Name:
+#     Description: 'The name of the S3 bucket #157'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack157
+#       - Outputs.BucketName
+#   Bucket158Name:
+#     Description: 'The name of the S3 bucket #158'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack158
+#       - Outputs.BucketName
+#   Bucket159Name:
+#     Description: 'The name of the S3 bucket #159'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack159
+#       - Outputs.BucketName
+#   Bucket160Name:
+#     Description: 'The name of the S3 bucket #160'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack160
+#       - Outputs.BucketName
+#   Bucket161Name:
+#     Description: 'The name of the S3 bucket #161'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack161
+#       - Outputs.BucketName
+#   Bucket162Name:
+#     Description: 'The name of the S3 bucket #162'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack162
+#       - Outputs.BucketName
+#   Bucket163Name:
+#     Description: 'The name of the S3 bucket #163'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack163
+#       - Outputs.BucketName
+#   Bucket164Name:
+#     Description: 'The name of the S3 bucket #164'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack164
+#       - Outputs.BucketName
+#   Bucket165Name:
+#     Description: 'The name of the S3 bucket #165'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack165
+#       - Outputs.BucketName
+#   Bucket166Name:
+#     Description: 'The name of the S3 bucket #166'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack166
+#       - Outputs.BucketName
+#   Bucket167Name:
+#     Description: 'The name of the S3 bucket #167'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack167
+#       - Outputs.BucketName
+#   Bucket168Name:
+#     Description: 'The name of the S3 bucket #168'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack168
+#       - Outputs.BucketName
+#   Bucket169Name:
+#     Description: 'The name of the S3 bucket #169'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack169
+#       - Outputs.BucketName
+#   Bucket170Name:
+#     Description: 'The name of the S3 bucket #170'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack170
+#       - Outputs.BucketName
+#   Bucket171Name:
+#     Description: 'The name of the S3 bucket #171'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack171
+#       - Outputs.BucketName
+#   Bucket172Name:
+#     Description: 'The name of the S3 bucket #172'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack172
+#       - Outputs.BucketName
+#   Bucket173Name:
+#     Description: 'The name of the S3 bucket #173'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack173
+#       - Outputs.BucketName
+#   Bucket174Name:
+#     Description: 'The name of the S3 bucket #174'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack174
+#       - Outputs.BucketName
+#   Bucket175Name:
+#     Description: 'The name of the S3 bucket #175'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack175
+#       - Outputs.BucketName
+#   Bucket176Name:
+#     Description: 'The name of the S3 bucket #176'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack176
+#       - Outputs.BucketName
+#   Bucket177Name:
+#     Description: 'The name of the S3 bucket #177'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack177
+#       - Outputs.BucketName
+#   Bucket178Name:
+#     Description: 'The name of the S3 bucket #178'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack178
+#       - Outputs.BucketName
+#   Bucket179Name:
+#     Description: 'The name of the S3 bucket #179'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack179
+#       - Outputs.BucketName
+#   Bucket180Name:
+#     Description: 'The name of the S3 bucket #180'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack180
+#       - Outputs.BucketName
+#   Bucket181Name:
+#     Description: 'The name of the S3 bucket #181'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack181
+#       - Outputs.BucketName
+#   Bucket182Name:
+#     Description: 'The name of the S3 bucket #182'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack182
+#       - Outputs.BucketName
+#   Bucket183Name:
+#     Description: 'The name of the S3 bucket #183'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack183
+#       - Outputs.BucketName
+#   Bucket184Name:
+#     Description: 'The name of the S3 bucket #184'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack184
+#       - Outputs.BucketName
+#   Bucket185Name:
+#     Description: 'The name of the S3 bucket #185'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack185
+#       - Outputs.BucketName
+#   Bucket186Name:
+#     Description: 'The name of the S3 bucket #186'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack186
+#       - Outputs.BucketName
+#   Bucket187Name:
+#     Description: 'The name of the S3 bucket #187'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack187
+#       - Outputs.BucketName
+#   Bucket188Name:
+#     Description: 'The name of the S3 bucket #188'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack188
+#       - Outputs.BucketName
+#   Bucket189Name:
+#     Description: 'The name of the S3 bucket #189'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack189
+#       - Outputs.BucketName
+#   Bucket190Name:
+#     Description: 'The name of the S3 bucket #190'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack190
+#       - Outputs.BucketName
+#   Bucket191Name:
+#     Description: 'The name of the S3 bucket #191'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack191
+#       - Outputs.BucketName
+#   Bucket192Name:
+#     Description: 'The name of the S3 bucket #192'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack192
+#       - Outputs.BucketName
+#   Bucket193Name:
+#     Description: 'The name of the S3 bucket #193'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack193
+#       - Outputs.BucketName
+#   Bucket194Name:
+#     Description: 'The name of the S3 bucket #194'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack194
+#       - Outputs.BucketName
+#   Bucket195Name:
+#     Description: 'The name of the S3 bucket #195'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack195
+#       - Outputs.BucketName
+#   Bucket196Name:
+#     Description: 'The name of the S3 bucket #196'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack196
+#       - Outputs.BucketName
+#   Bucket197Name:
+#     Description: 'The name of the S3 bucket #197'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack197
+#       - Outputs.BucketName
+#   Bucket198Name:
+#     Description: 'The name of the S3 bucket #198'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack198
+#       - Outputs.BucketName
+#   Bucket199Name:
+#     Description: 'The name of the S3 bucket #199'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack199
+#       - Outputs.BucketName
+#   Bucket200Name:
+#     Description: 'The name of the S3 bucket #200'
+#     Value:
+#       Fn::GetAtt:
+#       - BucketStack200
+#       - Outputs.BucketName
